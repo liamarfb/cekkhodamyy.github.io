@@ -8,11 +8,7 @@ function cekKhodam(event) {
         const randomStatus = Math.floor(Math.random() * status.length);
         if (randomStatus == 0) {
             let khodam = [
-                'Mio Karbu',
-                'Sumpit Gacoan',
-                'Keyboard Ompong',
-                'Tuyul Kebelet',
-                'Tusuk Sate'
+                'Mio Karbu'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);
