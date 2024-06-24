@@ -17,7 +17,17 @@ function cekKhodam(event) {
                 'Macan Putih',
                 'Tuyul Mullet',
                 'Opet',
-                'Monyet Upin ipin'
+                'Monyet Upin ipin',
+                'anjing kayang',
+                'Kutu bangku',
+                'Sapi terbang',
+                'Burung bapak kau',
+                'Monyet gelantung',
+                'Mie mantap',
+                'Alas kaki emak',
+                'Ikan ghoib',
+                'Ular kotbah',
+                'naga ngesot'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);
